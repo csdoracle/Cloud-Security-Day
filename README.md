@@ -4,8 +4,10 @@
 ### Learn and Build on our Services
 
 * [Identity Cloud Service](IDCS100.md)
+
 * [Cloud Access Security Broker](CASB.md)
-* [Identity Cloud Service](SMA300.md)
+
+* [Security Monitoring and Analytics](SMA300.md)
 
 
 
