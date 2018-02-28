@@ -356,15 +356,15 @@ Following Social providers comes out-of-the-box with IDCS -
 
 IDCS also supports any generic social identity provider that is **OpenID Connect** compliant.
 
-- Go to IDCS admin console -> **Security** tab -> **Identity Providers** from the left sidebar menu
+- Go to IDCS admin console -> **Security** -> **Identity Providers** from the left sidebar menu
 
-![](images/IDP-Social-1.png)
+![](images/100/IDP-Social-1.png)
 
 - Click on **Add Social IDP**
 
-- Select the type as **Google**. Provide a name of the provider. We will use an intuitive one - **Google**
+- Select the type as **Google**. Provide a name of the provider. We will use an intuitive one - **Google**. Click on **Next**.
 
-![](images/IDP-Social-2.png)
+![](images/100/IDP-Social-2.png)
 
 - Provide the provider parameter values -
 
@@ -372,61 +372,72 @@ IDCS also supports any generic social identity provider that is **OpenID Connect
 Client ID - 291328507778-r3h3k909dg7ponsf6mpal6vlc8vlu29p.apps.googleusercontent.com
 Client Secret - URCTp86DdeQ8N2ojgl9Jpjnd
 ```
-![](images/IDP-Social-3.png)
+![](images/100/IDP-Social-3.png)
 
 - Click on **Finish**
 
-![](images/IDP-Social-4.png)
+![](images/100/IDP-Social-4.png)
 
 - **Activate** the provider
 
-![](images/IDP-Social-5.png)
+![](images/100/IDP-Social-5.png)
 
-![](images/IDP-Social-6.png)
+![](images/100/IDP-Social-6.png)
 
 - Enable the option **Show on Login Page**
 
-![](images/IDP-Social-7.png)
+![](images/100/IDP-Social-7.png)
 
-![](images/IDP-Social-8.png)
+![](images/100/IDP-Social-8.png)
 
-![](images/IDP-Social-9.png)
+![](images/100/IDP-Social-9.png)
 
-- Finally enable the option **Activate Federated SSO**
 
-![](images/IDP-Social-10.png)
+- Select **Security** -> **Identity Provider Policies** from the sidebar to the left of admin console.
+
+![](images/100/IDP-Social-10.png)
+
+- Click on **Default Identity Provider Policy**. This will open up the policy. Go to the **Identity Providers** tab and click on **Assign**.
+
+![](images/100/IDP-Social-10-1.png)
+
+- Select the provider **Google** and click on **OK**.
+
+![](images/100/IDP-Social-10-2.png)
+![](images/100/IDP-Social-10-3.png)
+
 
 ## Verify Social Login - (Persona: End-User)
 
 - Go to IDCS user console. Verify that IDCS login page shows the option **Sign in with Google**
 
-![](images/IDP-Social-11.png)
+![](images/100/IDP-Social-11.png)
 
 - Click on **Google**
 
 - From the popup sign-in page for google, login with [demoidcs@gmail.com]()
 
-![](images/IDP-Social-12.png)
+![](images/100/IDP-Social-12.png)
 
-![](images/IDP-Social-13.png)
+![](images/100/IDP-Social-13.png)
 
 - Verify that, the flow comes back to IDCS login screen with a message **You don't have an account....[Click here to register]()**. Click on the link
 
-![](images/IDP-Social-14.png)
+![](images/100/IDP-Social-14.png)
 
 - On the registration page notice that the first name and last name have been populated automatically. IDCS gets this information from the social provider. 
 
-![](images/IDP-Social-15.png)
+![](images/100/IDP-Social-15.png)
 
 - Click on **Register**. This will create the user in IDCS and link with the social identity.
 
 - **Skip** if there is any prompt for 2-factor authentication enrollment.
 
-![](images/IDP-Social-16.png)
+![](images/100/IDP-Social-16.png)
 
 - Verify that user can see an empty **MyApps** page
 
-![](images/IDP-Social-17.png)
+![](images/100/IDP-Social-17.png)
 
 - Logout of IDCS and Google
 
@@ -536,19 +547,19 @@ This optional video demonstrates using and setting up **Auth0** as the social pr
 
 # Scenario - Developer Features
 
-## API Tour - (Persona: Developer)
+## For Information Only: API Tour - (Persona: Developer)
 
 IDCS is built using API-first approach. All the features are accessible through REST API's and are protected by OAuth 2.0 framework. Most of the API's need an **OAuth Access Token** in order to be accepted by IDCS. 
 
-In this exercise you will explore some of the API's in the reportaire, especially - 
+In this demo we will explore some of the API's in the reportaire, especially - 
 
 	1. IDCS Configuration Discovery
 	2. Obtaining and inspecting OAuth token
 	3. User management
 	4. Audit API
 
-The exercise will use hosted **Jupyter Notebook**
+The demo uses hosted **Jupyter Notebook**
 
 [Access Notebook Here](http://140.86.32.135:65000/notebooks/IDCS-API.ipynb)
 
-**Note:** Replace **`port`** `65000` on the URL with the port provided and refresh browser.
+
