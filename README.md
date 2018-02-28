@@ -3,9 +3,9 @@
 
 ### Learn and Build on our Services
 
-* <a href="/Cloud-Security-Day/IDCS100.md" target="_blank">IDCS</a>
-* <a href="/Cloud-Security-Day/CASB.md" target="_blank">CASB</a>
-* <a href="/Cloud-Security-Day/SMA300.md" target="_blank">OMC</a>
+* [Identity Cloud Service](IDCS100.md)
+* [Cloud Access Security Broker](CASB.md)
+* [Identity Cloud Service](SMA300.md)
 
 
 
