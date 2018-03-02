@@ -369,7 +369,7 @@ IDCS also supports any generic social identity provider that is **OpenID Connect
 
 ![](images/100/IDP-Social-2.png)
 
-- Provide the provider parameter values -
+- Provide the provider parameter values as given below -
 
 ```
 Client ID - 291328507778-r3h3k909dg7ponsf6mpal6vlc8vlu29p.apps.googleusercontent.com
@@ -396,7 +396,7 @@ Client Secret - URCTp86DdeQ8N2ojgl9Jpjnd
 ![](images/100/IDP-Social-9.png)
 
 
-- Select **Security** -> **Identity Provider Policies** from the sidebar to the left of admin console.
+- Select **Security** -> **IDP Policies** from the sidebar to the left of admin console.
 
 ![](images/100/IDP-Social-10.png)
 
