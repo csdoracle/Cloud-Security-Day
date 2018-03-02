@@ -13,7 +13,7 @@ Although you will login as a single user, you will take on 2 Personas during the
 	* (For External User) `self-register` to IDCS. 
 
 ### Optional	
-* We will see a **Developer** persona exploring  `IDCS REST API's` in interactive notebook-style, and create a `custom application` leveraging IDCS API's and authentication tools.
+* We will see a **Developer** persona exploring `IDCS REST API's` in interactive notebook-style.
 
 
 ## Objectives
@@ -26,12 +26,9 @@ Although you will login as a single user, you will take on 2 Personas during the
 - Login and enroll in MFA `<--Persona: End-User`
 - Request Group `<--Persona: End-User`
 - Verify Apps SSO `<--Persona: End-User`
-- Configure Social Provider `<--Persona: Administrator`
-- Verify Social Login `<--Persona: End-User`
 - Create Registration profile `<--Persona: Administrator`
 - Self Registration `<--Persona: External End-User`
 - API Tour `<--Persona: Developer`
-- Custom Application Integration `<--Persona: Developer`
 
 
 ## Required Artifacts
