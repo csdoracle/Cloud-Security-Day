@@ -81,7 +81,3 @@ Go to https://myservices.us.oraclecloud.com/mycloud/signup?language=en
 - After about 15 minutes your new “Management Cloud Service Instance” is created and confirmation sent to the admin email address with further details.
 
 	![](images/pre-req/pre-012.png)
-
-## Insert CASB stuff here
-
-- Insert CASB stuff here
