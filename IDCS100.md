@@ -344,7 +344,7 @@ The two factors work together to add an additional layer of security by using ei
 
 # Scenario - External User Workflow
 
-## Create External Group
+## Create External Group - (Persona: Administrator)
 
 - Go to IDCS admin console -> **Groups** 
 
