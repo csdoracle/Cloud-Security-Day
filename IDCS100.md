@@ -101,19 +101,19 @@ IDCS supports user (also groups) on-boarding from on-premise **Active Directory*
 
 - Click on the **Import** button. 
 
-	![](images/100/100-10.png)
+	![](images/100/100-12.png)
 	
 - Select the **CSV** file. Click on **Import**
 
-    ![](images/100/100-11.png)
-
-- Go to the **Jobs** tab in admin console. Verify that the import Job finished successfully. Click on **View**
-
-    ![](images/100/100-12.png)
-    
-- Click on **View Details** button. This will show the detailed information on the ***Import** job. Inspect the details.
-
     ![](images/100/100-13.png)
+
+- Go to the **Jobs** tab in admin console. Verify that the import Job finished successfully.
+
+    ![](images/100/100-10.png)
+    
+- Click on **View Details** button. This will show the detailed information on the **Import** job. Inspect the details.
+
+    ![](images/100/100-11.png)
 
 ### **STEP 3**: Verify user creation
 
@@ -121,7 +121,7 @@ IDCS supports user (also groups) on-boarding from on-premise **Active Directory*
 
     ![](images/100/100-14.png)
 
-- Click on your target end-user and verify user's detailed attribute information
+- Click on your target end-user and verify user's detailed attribute information.
 
     ![](images/100/100-15.png)
     
@@ -133,11 +133,14 @@ IDCS provides support for standard SAML 2.0 Browser POST Login & Logout Profiles
 
 In this hands-on exercise, we will setup integration with **Salesforce** using SAML. IDCS will act as **IdP** (Identity Provider) and Salesforce org as **SP** (Service Provider also known as a Relying Party)
 
-- Download IDCS Metadata to a local XML file. Metadata is available from the following location - [https://<<IDCSHOST>>/fed/v1/metadata]().
+- Download and save IDCS Metadata to a local XML file for your instance. Metadata is available from the following location - 
+<blockquote>
+https://idcs-xxxxxx.identity.oraclecloud.com/fed/v1/metadata
+</blockquote>
 
 ![](images/100/100-16.png)
 	
-- Login to the **Salesforce** developer account. 
+- Login to the **Salesforce** developer [account](https://demoidaas-dev-ed.my.salesforce.com)
 
 <blockquote>Credentials will be provided during session.</blockquote>
 
@@ -247,7 +250,7 @@ The two factors work together to add an additional layer of security by using ei
 
 ![](images/100/100-38-2.png)
 
-- Check the box **Prompt for an additional factor**. Keep all the subsequent parameters default, such as - `Enrollment`: `Optional`
+- Check the box **Prompt for an additional factor**. Set the value of **Enrollment** to `Optional`
 
 ![](images/100/100-38-3.png)
 
@@ -256,7 +259,7 @@ The two factors work together to add an additional layer of security by using ei
 
 ## Activate Account - (Persona: End-User) 
 
-- Login to Gmail as the assigned user. Go to the label corresponding to the user. Verify that there is an activation email from IDCS.
+- Login to gmail as [demoidcs@gmail.com](). Go to the label corresponding to the user. Verify that there is an activation email from IDCS.
 
 ![](images/100/100-39.png)
 
