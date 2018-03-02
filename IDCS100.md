@@ -182,7 +182,7 @@ https://idcs-xxxxxx.identity.oraclecloud.com/fed/v1/metadata
 	
 ![](images/100/100-27.png)
 
-- On the first page of configuration screen provide the **Organization ID** and **Domain Name** values, example -
+- On the first page of configuration screen provide the **Organization ID** and **Domain Name** values -
 
 ```	
 Domain Name : demoidaas-dev-ed
