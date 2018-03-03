@@ -103,7 +103,7 @@ After about 15 minutes your account will be provisioned and you will receive a w
 
 ![](images/pre-req/pre-008-10.png)
 
-- Verify that the a service tile appears for **Oracle CASB** on the dashboard.
+- Verify that the a service tile appears for **Management Cloud** on the dashboard.
 
 ![](images/pre-req/pre-008-11.png)
 
