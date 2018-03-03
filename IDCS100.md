@@ -18,23 +18,23 @@ Although you will login as a single user, you will take on 2 Personas during the
 
 ## Objectives
 
-- Upload Users `<--Persona: Administrator`
+- In-built integration with Oracle cloud services `<--Persona: Administrator`
+- Onboard Users `<--Persona: Administrator`
 - Configure SSO Apps `<--Persona: Administrator`
 - Assign Apps to Group `<--Persona: Administrator`
-- Configure MFA `<--Persona: Administrator`
+- Configure multi-factor authentication `<--Persona: Administrator`
 - Activate Account `<--Persona: End-User`
-- Login and enroll in MFA `<--Persona: End-User`
+- Enroll in multi-factor authentication `<--Persona: End-User`
 - Request Group `<--Persona: End-User`
 - Verify Apps SSO `<--Persona: End-User`
 - Create Registration profile `<--Persona: Administrator`
 - Self Registration `<--Persona: External End-User`
-- API Tour `<--Persona: Developer`
+- Optional: API Tour `<--Persona: Developer`
 
 
-## Required Artifacts
+## Pre-requisites
 
 - The following lab requires an **Oracle Public Cloud** account trial subscription.
-- Salesforce developer account
 
 ### **STEP 0.1**: Login to your Oracle Cloud Account
 
@@ -43,43 +43,56 @@ Although you will login as a single user, you will take on 2 Personas during the
 
 - click **Sign In** in the upper right hand corner of the browser
 
+![](images/100/100-1.png)
+
 - Ensure **Cloud Account with Identity Cloud Service** is selected. Enter your cloud account name. Click on **My Services**
+
+![](images/100/100-2.png)
 
 - On the login page, enter your user name and password and click **Sign In** 
 
+![](images/100/100-3.png)
+
 - You will be presented with a dashboard displaying the various cloud services available to this account.
 
-    ![](images/100/100-1-4.gif)
+![](images/100/100-4.png)
 
 ### **STEP 0.2**: Access IDCS Admin Console 
 
-- From the cloud **My Services** dashboard, click on **Users** in the upper right hand corner. Then click on **Identity Console** button located towards upper right hand corner again. 
+- From the cloud **My Services** dashboard, click on **Users** in the upper right hand corner. 
 
-	![](images/100/100-5.png)
+![](images/100/100-4-1.png)
 
-- If you have logged in using your administrator Account, the users are shown up in IDCS admin console. Other admin console sections are also available.
+- Then click on **Identity Console** button located towards upper right hand corner again. 
 
-	![](images/100/100-6.png)
+![](images/100/100-5.png)
+
+- If you have logged in using your administrator Account, the users are shown up in IDCS admin console. 
+
+![](images/100/100-6.png)
 
 ### **STEP 0.3**: Access IDCS MyApps Console
 
 - From the drop-down associated with the displayed logged-in user in the upper right hand corner of IDCS admin console, choose **My Apps**
 
-	![](images/100/100-7.png)
+![](images/100/100-7.png)
 	
-	![](images/100/100-8.png)
+![](images/100/100-8.png)
 	
-### **STEP 0.4**: Access Oracle Cloud Services
+# In-built integration with Oracle cloud services
 
-- Click on **Dashboard** to come back to **My Services** page again. Display the sidebar by clicking on the bar in the upper left hand corner. then click on **Services** to display available Oracle Cloud Services.
+- From the drop-down associated with the displayed logged-in user in the upper right hand corner of IDCS admin console, choose **My Services** to come back to the cloud dashboard.
 
-	![](images/100/100-8-1.png)
-	
-	![](images/100/100-8-2.png)
+![](images/100/100-8-1.png)
+
+- Display the sidebar by clicking on the hamburger menu in the upper left hand corner. then click on **Services** to display available Oracle cloud services.
+
+![](images/100/100-8-2.png)	
 	
 - Click on the service **Analytics**. Observe that the logged in user has successfully single signed-on to the **Analytics** service console
 
-	![](images/100/100-8-3.png)
+![](images/100/100-8-3.png)
+![](images/100/100-8-4.png)
 
 # Scenario - Standard Employee Workflow
 
