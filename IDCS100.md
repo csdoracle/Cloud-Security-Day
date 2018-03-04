@@ -7,7 +7,7 @@ This is the first of several labs that are part of the **Oracle Public Cloud Sec
 
 Although you will login as a single user, you will take on 2 Personas during the workshop. 
 
-* The **LOB Administrator** Persona will 
+* The **LOB Administrator** persona will 
 
 		Onboard users via CSV upload
 		Setup and configure SSO Apps
@@ -29,15 +29,15 @@ Although you will login as a single user, you will take on 2 Personas during the
 ## Objectives
 
 - In-built integration with Oracle cloud services `<--Persona: Administrator`
-- Onboard Users `<--Persona: Administrator`
-- Configure SSO Apps `<--Persona: Administrator`
-- Assign Apps to Group `<--Persona: Administrator`
+- Onboard users `<--Persona: Administrator`
+- Configure SSO for an app `<--Persona: Administrator`
+- Grant app to group `<--Persona: Administrator`
 - Configure multi-factor authentication `<--Persona: Administrator`
-- Activate Account `<--Persona: End-User`
+- Activate account `<--Persona: End-User`
 - Enroll in multi-factor authentication `<--Persona: End-User`
-- Request Group `<--Persona: End-User`
-- Verify Apps SSO `<--Persona: End-User`
-- Optional: API Tour `<--Persona: Developer`
+- Request group `<--Persona: End-User`
+- Verify SSO `<--Persona: End-User`
+- Optional: API tour `<--Persona: Developer`
 
 
 ## Pre-requisites
@@ -158,8 +158,7 @@ For the exercise we will be using `file upload` option for users.
 
     ![](images/100/100-15.png)
     
-## Configure SSO Apps - (Persona: Administrator)
-
+## Configure SSO for an app - (Persona: Administrator)
 
 <blockquote>
 	<font color="blue">
@@ -249,7 +248,7 @@ Organization ID : 00D1N000002M18V
 ![](images/100/100-31.png)
 
 
-## Assign Apps to Group - (Persona: Administrator)
+## Grant app to group - (Persona: Administrator)
 
 - Go to IDCS admin console -> **Groups** menu 
 
@@ -272,7 +271,7 @@ Organization ID : 00D1N000002M18V
 	![](images/100/100-36.png)
 
 
-## Configure MFA - (Persona: Administrator)
+## Configure multi-factor authentication - (Persona: Administrator)
 
 When a user signs in to an application, they are prompted for their user name and password, which is the first factor – something that they know. With **Multi Factor Authentication (MFA)** enabled in Oracle Identity Cloud Service, the user is then required to provide a second type of verification. This is called **2-Step Verification**.
 
@@ -305,7 +304,7 @@ The two factors work together to add an additional layer of security by using ei
 - Click on **Save**
 	
 
-## Activate Account - (Persona: End-User) 
+## Activate account - (Persona: End-User) 
 
 - Login to gmail as [demoidcs@gmail.com](). Go to the label corresponding to the user. Verify that there is an activation email from IDCS.
 
@@ -322,7 +321,7 @@ The two factors work together to add an additional layer of security by using ei
 
 - Verify that you are redirected to the MFA enrollment page.
   
-## Enroll in MFA - (Persona: End-User)
+## Enroll in multi-factor authentication - (Persona: End-User)
 
 - On the **Enable 2-Step Verification** page, click on `Enable`
 
@@ -355,7 +354,7 @@ The two factors work together to add an additional layer of security by using ei
 
 ![](images/100/100-48.png)
 
-## Request Group - (Persona: End-User)
+## Request group - (Persona: End-User)
 
 - From MyApps page click on `Add` access request button.
 
@@ -386,7 +385,7 @@ The two factors work together to add an additional layer of security by using ei
 ![](images/100/100-55.png)
 
 
-## Verify Apps SSO - (Persona: End-User)
+## Verify SSO - (Persona: End-User)
 
 - Click on the `Salesforce Chatter` app. 
 - Ensure that user is automatically logged-in to Salesforce Chatter (**SSO**)
