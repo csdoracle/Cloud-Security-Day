@@ -231,7 +231,7 @@ In this hands-on exercise, we will setup integration with **Salesforce** using S
 
 ![](images/100/100-25-0.png)
 
-- Click on **Add button** and select **App Catalog**
+- On the **Applications** page, click on **Add** and select **App Catalog** on the pop-up.
 
 ![](images/100/100-25.png)
 
