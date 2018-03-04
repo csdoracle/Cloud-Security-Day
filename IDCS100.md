@@ -241,7 +241,7 @@ In this hands-on exercise, we will setup integration with **Salesforce** using S
 	
 ![](images/100/100-27.png)
 
-- On the first page of configuration screen enter the **Organization ID** and **Domain Name** values as provided below -
+- On the first page of configuration screen enter the **Organization ID** and **Domain Name** values as provided below. Then click on **Next**.
 
 	<blockquote>
 		<font color="red">
@@ -255,15 +255,17 @@ Organization ID : 00D1N000002M18V
 ```
 ![](images/100/100-29.png)
 
-- Click on **Next** 
+- Click on **Finish** button 
 
-![](images/100/100-30.png)
-
-- Click on **Finish** button  
+![](images/100/100-30.png) 
 
 - **Activate** the application 
 
 ![](images/100/100-31.png)
+
+![](images/100/100-31-1.png)
+
+![](images/100/100-31-2.png)
 
 
 ## Grant app to group - (Persona: Administrator)
