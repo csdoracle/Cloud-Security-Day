@@ -125,38 +125,53 @@ For the exercise we will be using `file upload` option for users.
 
 ### **STEP 1**: Obtain upload CSV file
 
-- Download the CSV file for [Users](resources/Users.csv). Inspect the content of the file from your favorite editor.
+- Download the CSV file for users from [here](resources/Users.csv). Right-click on the link and save the file in your system. Inspect the content of the file from your favorite editor.
 	
 
 ### **STEP 2**: Import users in IDCS
 
-- Go to IDCS Admin console using your administrator account credentials. Ensure that you are on the **Users** tab
+- Click on the **Users** icon from top right corner assuming you are still on the **Analytics** console.
 
-- Click on the **Import** button. 
+![](images/100/100-9.png)
 
-	![](images/100/100-12.png)
+- Click on **Identity Console** from top right corner of the **User Management** page.
+
+![](images/100/100-9-1.png)
+
+- On the **Users** page, click on the **Import** button. 
+
+![](images/100/100-10.png)
 	
-- Select the **CSV** file. Click on **Import**
+- Select the **CSV** file that you saved locally. Click on **Import**
 
-    ![](images/100/100-13.png)
+![](images/100/100-11.png)
 
-- Go to the **Jobs** tab in admin console. Verify that the import Job finished successfully.
+- Go to the **Jobs** tab in admin console. Verify that the import Job finished successfully. Click on **View Details** button.
 
-    ![](images/100/100-10.png)
+![](images/100/100-12.png)
     
-- Click on **View Details** button. This will show the detailed information on the **Import** job. Inspect the details.
+- This will show the detailed information on the **Import** job. Inspect the details.
 
-    ![](images/100/100-11.png)
+![](images/100/100-13.png)
 
 ### **STEP 3**: Verify user creation
 
-- Go to the **Users** tab in admin console. Verify that the new users are visible on the console.
+- Go to the **Users** menu in admin console. Verify that the new users are visible on the console.
 
-    ![](images/100/100-14.png)
+![](images/100/100-14.png)
+
+![](images/100/100-14-1.png)
 
 - Click on your target end-user and verify user's detailed attribute information.
 
-    ![](images/100/100-15.png)
+	<blockquote>
+		<font color="red">
+			User assigmnets will be provided before the session.
+		</font>
+	</blockquote>
+
+![](images/100/100-15.png)
+
     
 ## Configure SSO for an app - (Persona: Administrator)
 
