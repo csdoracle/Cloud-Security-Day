@@ -3,16 +3,26 @@ Update: March 5, 2018
 
 ## Introduction
 
-This is the first of several labs that are part of the **Oracle Public Cloud Security and Management workshop.** This workshop will walk you through the various capabilities of `Oracle Identity Cloud Service`.
+This is the first of several labs that are part of the **Oracle Public Cloud Security and Management workshop.** This workshop will walk you through the various capabilities of **Oracle Identity Cloud Service**.
 
 Although you will login as a single user, you will take on 2 Personas during the workshop. 
 
-* The **LOB Administrator** Persona will `create users via CSV upload`, `setup and configure SSO Apps`, `configure external identity provider`, `configure MFA and policies`, and `create registration profiles` for External users. 
+* The **LOB Administrator** Persona will 
 
-* The **End-User** persona will `activate her account`, `setup and login using various MFA channels`, `request groups`, `verify SSO for apps` from unified launchpad, `login via Social provider`
-	* (For External User) `self-register` to IDCS. 
+		Onboard users via CSV upload
+		Setup and configure SSO Apps
+		Configure external identity provider
+		Configure MFA and policies
+		
+* The **End-User** persona will 
+
+		Activate her account 
+		Setup and login using various MFA channels 
+		Request groups
+		Verify SSO for apps from unified launchpad 
 
 ### Optional	
+
 * We will see a **Developer** persona exploring `IDCS REST API's` in interactive notebook-style.
 
 
@@ -103,7 +113,15 @@ Although you will login as a single user, you will take on 2 Personas during the
 
 ## Onboard Users - (Persona: Administrator)
 
-IDCS supports user (also groups) on-boarding from on-premise **Active Directory**, using file upload, REST API, on-premise **Oracle Identity Management** solution, or manually from IDCS admin console. For the workshop we will be using `file upload` option for users and groups.
+<blockquote>
+	<font color="blue">
+		<p>
+			IDCS supports user (also groups) on-boarding from on-premise 			<b>Active Directory</b>, using file upload, REST API, on-premise 			<b>Oracle Identity Management</b> solution, or manually from IDCS 			admin console.
+		</p>
+	</font>
+</blockquote>
+
+For the exercise we will be using `file upload` option for users.
 
 ### **STEP 1**: Obtain upload CSV file
 
@@ -144,30 +162,35 @@ IDCS supports user (also groups) on-boarding from on-premise **Active Directory*
 
 
 <blockquote>
-<font color="blue">
-	<p>
-		Oracle Identity Cloud Service(IDCS) provides integration with any 		service that can be integrated via <b>SAML</b> (Security Access Markup 		Language) protocol. Administrations will be able to manage users into 		various applications via single control panel and end users will be 		able to get to applications via single click.
-	</p>
-	<p>
-		IDCS provides support for standard SAML 2.0 Browser POST Login & Logout 		Profiles.
-	</p>
-</font>
+	<font color="blue">
+		<p>
+			Oracle Identity Cloud Service(IDCS) provides integration with any 			service that can be integrated via <b>SAML</b> (Security Access 			Markup Language) protocol. Administrations will be able to manage 			users into various applications via single control panel and end 			users will be able to get to applications via single click.
+		</p>
+		<p>
+			IDCS provides support for standard SAML 2.0 browser POST login & 			logout profiles.
+		</p>
+	</font>
 </blockquote>
-
 
 
 In this hands-on exercise, we will setup integration with **Salesforce** using SAML. IDCS will act as **IdP** (Identity Provider) and Salesforce org as **SP** (Service Provider also known as a Relying Party)
 
 - Download and save IDCS Metadata to a local XML file for your instance. Metadata is available from the following location - 
 <blockquote>
-https://idcs-xxxxxx.identity.oraclecloud.com/fed/v1/metadata
+	<font color="blue">
+		https://idcs-xxxxxx.identity.oraclecloud.com/fed/v1/metadata
+	</font>
 </blockquote>
 
 ![](images/100/100-16.png)
 	
 - Login to the **Salesforce** developer [account](https://demoidaas-dev-ed.my.salesforce.com)
 
-<blockquote>Credentials will be provided during session.</blockquote>
+<blockquote>
+	<font color="red">
+		Credentials will be provided during session.
+	</font>
+</blockquote>
 
 - From side menu bar, go to **Settings** -> **Identity** -> **Single Sign-On Settings**
 
