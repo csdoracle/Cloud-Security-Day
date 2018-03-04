@@ -27,8 +27,6 @@ Although you will login as a single user, you will take on 2 Personas during the
 - Enroll in multi-factor authentication `<--Persona: End-User`
 - Request Group `<--Persona: End-User`
 - Verify Apps SSO `<--Persona: End-User`
-- Create Registration profile `<--Persona: Administrator`
-- Self Registration `<--Persona: External End-User`
 - Optional: API Tour `<--Persona: Developer`
 
 
@@ -79,20 +77,27 @@ Although you will login as a single user, you will take on 2 Personas during the
 	
 ![](images/100/100-8.png)
 	
-# In-built integration with Oracle cloud services
+# Scenario: Integration with Oracle cloud services
 
 - From the drop-down associated with the displayed logged-in user in the upper right hand corner of IDCS admin console, choose **My Services** to come back to the cloud dashboard.
 
 ![](images/100/100-8-1.png)
 
-- Display the sidebar by clicking on the hamburger menu in the upper left hand corner. then click on **Services** to display available Oracle cloud services.
+- Display the sidebar by clicking on the hamburger menu in the upper left hand corner. then expand **Services** to display available Oracle cloud services.
 
 ![](images/100/100-8-2.png)	
 	
-- Click on the service **Analytics**. Observe that the logged in user has successfully single signed-on to the **Analytics** service console
+- Click on the service **Analytics**. 
 
 ![](images/100/100-8-3.png)
+
+- On the **Analytics** console, click on **Go to Console**
+
 ![](images/100/100-8-4.png)
+
+- Observe that the logged in user has successfully single signed-on to the **Analytics** service console
+
+![](images/100/100-8-5.png)
 
 # Scenario - Standard Employee Workflow
 
@@ -369,84 +374,6 @@ The two factors work together to add an additional layer of security by using ei
 
 ![](images/100/100-58.png) 
 
-
-## Create Registration profile  - (Persona: Administrator)
-
-- Login to IDCS admin console as an administrator. Select **Settings** -> **Self Registration** from the sidebar to the left.
-
-
-![](images/100/100-60.png)
-
-- Click on **Add**
-
-- On the Profile creation page, enter `Profile Name -` **`OurPartner`**. 
-
-![](images/100/100-61.png)
-
-- Click on **Add** under **Assign to Group** section. Select the external group **`OurPartner`** and click on **OK**
-
-![](images/100/100-62.png)
-
-- Under **Self-Registration Content** section, enter `Registration Page Name -` **`OurPartner`**.
-
-![](images/100/100-63.png)
-
-- Review the remaining sections. Keep the default values.
-
-![](images/100/100-64.png)
-
-- Click on **Save** and then click **Yes** on the **confirmation**.
-
-![](images/100/100-65.png)
-	
-- Click on **Activate** and then **Activate Profile**
-
-![](images/100/100-66.png)
-
-![](images/100/100-67.png)
-	
-![](images/100/100-68.png)
-
-- Note the **`Profile ID`** and create the self-registration link in the following format :
-
-	```js
-	https://<tenant>.identity.oraclecloud.com/ui/v1/signup?profileid=<Noted Profile ID>
-	```
-	<blockquote>
-	This link can be forwarded in the registration invitation email or other channel to the external users.
-	</blockquote>
-	
-![](images/100/100-70.png)
-
-## Self Registration - (Persona: End-User)
-
-- Click on the Registration link supplied.
-
-![](images/100/100-71.png)
-
-- Enter required profile information and **submit**
-
-![](images/100/100-72.png)
-
-- On the Success message page, click on **continue**. **Skip** the 2-step verification.
-
-![](images/100/100-73.png)
-	
-![](images/100/100-74.png)
-
-- From the **My Apps** page access the **My Profile** menu. 
-
-![](images/100/100-75.png)
-	
-![](images/100/100-76.png)
-
-- Go to the **My Access** tab. Ensure that user is part of the group configured in the registration profile. 
-
-	<blockquote>
-	If the group is assigned to one or more apps in IDCS, the new user will automatically gain access to those apps, and the apps will be visible on the My Apps page.
-	</blockquote>
-	
-![](images/100/100-77.png)
 
 # Scenario - Developer Features
 
