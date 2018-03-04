@@ -142,9 +142,19 @@ IDCS supports user (also groups) on-boarding from on-premise **Active Directory*
     
 ## Configure SSO Apps - (Persona: Administrator)
 
-Oracle Identity Cloud Service(IDCS) provides integration with any service that can be integrated via **SAML** (Security Access Markup Language) protocol. Administrations will be able to manage users into various applications via single control panel and end users will be able get to applications via single click.
 
-IDCS provides support for standard SAML 2.0 Browser POST Login & Logout Profiles.
+<blockquote>
+<font color="blue">
+	<p>
+		Oracle Identity Cloud Service(IDCS) provides integration with any 		service that can be integrated via <b>SAML</b> (Security Access Markup 		Language) protocol. Administrations will be able to manage users into 		various applications via single control panel and end users will be 		able to get to applications via single click.
+	</p>
+	<p>
+		IDCS provides support for standard SAML 2.0 Browser POST Login & Logout 		Profiles.
+	</p>
+</font>
+</blockquote>
+
+
 
 In this hands-on exercise, we will setup integration with **Salesforce** using SAML. IDCS will act as **IdP** (Identity Provider) and Salesforce org as **SP** (Service Provider also known as a Relying Party)
 
