@@ -229,6 +229,8 @@ In this hands-on exercise, we will setup integration with **Salesforce** using S
 	
 - Go to IDCS admin console -> **Applications** menu
 
+![](images/100/100-25-0.png)
+
 - Click on **Add button** and select **App Catalog**
 
 ![](images/100/100-25.png)
@@ -239,7 +241,13 @@ In this hands-on exercise, we will setup integration with **Salesforce** using S
 	
 ![](images/100/100-27.png)
 
-- On the first page of configuration screen provide the **Organization ID** and **Domain Name** values -
+- On the first page of configuration screen enter the **Organization ID** and **Domain Name** values as provided below -
+
+	<blockquote>
+		<font color="red">
+			These values are exactly same as those found in the IDCS settings in Salesforce you just configured.
+		</font>
+	</blockquote>
 
 ```	
 Domain Name : demoidaas-dev-ed
@@ -401,20 +409,6 @@ The two factors work together to add an additional layer of security by using ei
 - Ensure that user is automatically logged-in to Salesforce Chatter (**SSO**)
 
 ![](images/100/100-56.png)
-
-# Scenario - External User Workflow
-
-## Create External Group - (Persona: Administrator)
-
-- Go to IDCS admin console -> **Groups** 
-
-- Add group **OurPartner**
-
-![](images/100/100-57.png)
-
-- Click on **Finish**
-
-![](images/100/100-58.png) 
 
 
 # Scenario - Developer Features
