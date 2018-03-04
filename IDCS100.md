@@ -191,8 +191,11 @@ In this hands-on exercise, we will setup integration with **Salesforce** using S
 
 - Download and save IDCS Metadata to a local XML file for your instance. Metadata is available from the following location - 
 <blockquote>
-	<font color="blue">
+	<font color="red">
 		https://idcs-xxxxxx.identity.oraclecloud.com/fed/v1/metadata
+	</font>
+	<font color="blue">
+		<br>where idcs-xxxxxx is your IDCS tenant name that you can grab from the browser URL of your IDCS console. Copy-paste the constructed URL on a new browser tab and save the XML file locally.
 	</font>
 </blockquote>
 
@@ -200,21 +203,21 @@ In this hands-on exercise, we will setup integration with **Salesforce** using S
 	
 - Login to the **Salesforce** developer [account](https://demoidaas-dev-ed.my.salesforce.com)
 
-<blockquote>
-	<font color="red">
-		Credentials will be provided during session.
-	</font>
-</blockquote>
+	<blockquote>
+		<font color="red">
+			Credentials will be provided during session.
+		</font>
+	</blockquote>
 
 - From side menu bar, go to **Settings** -> **Identity** -> **Single Sign-On Settings**
 
 ![](images/100/100-17.png)
 
-- Click on **Edit** and enable **Federated Single Sign-On Using SAML** option
+- Click on **Edit** and enable **Federated Single Sign-On Using SAML** option. Click on **Save**.
 
 ![](images/100/100-18.png)
 
-- Click on **New from Metadata File** button to import IDCS metadata. Select the downloaded metadata file using **Choose File** button. Click on **Create**.
+- Click on **New from Metadata File** button to import IDCS metadata. Select the downloaded metadata XML file using **Choose File** button. Click on **Create**.
 
 ![](images/100/100-19.png)
 ![](images/100/100-20.png)
@@ -223,16 +226,8 @@ In this hands-on exercise, we will setup integration with **Salesforce** using S
 
 ![](images/100/100-21.png)
 ![](images/100/100-22.png)
-
-- Note the **Organization ID** value.
-
-![](images/100/100-23.png)
-
-- Note the org **Domain Name** value. 
-
-![](images/100/100-24.png)
 	
-- Go to IDCS admin console -> **Applications** tab
+- Go to IDCS admin console -> **Applications** menu
 
 - Click on **Add button** and select **App Catalog**
 
