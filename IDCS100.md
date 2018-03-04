@@ -257,7 +257,7 @@ Organization ID : 00D1N000002M18V
 
 - Click on **Finish** button 
 
-![](images/100/100-30.png) 
+![](images/100/100-30.png)
 
 - **Activate** the application 
 
