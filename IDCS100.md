@@ -166,7 +166,7 @@ For the exercise we will be using `file upload` option for users.
 
 	<blockquote>
 		<font color="red">
-			User assigmnets will be provided before the session.
+			User assignments will be provided before the session.
 		</font>
 	</blockquote>
 
@@ -327,7 +327,7 @@ Organization ID : 00D1N000002M18V
 
 ![](images/100/100-38-1.png)
 
-- Go to the **Sign-On Rules** tab and then click on **Edit** aganist the **Default Sign-On Rule**.
+- Go to the **Sign-On Rules** tab and then click on **Edit** against the **Default Sign-On Rule**.
 
 ![](images/100/100-38-2.png)
 
@@ -363,19 +363,21 @@ Organization ID : 00D1N000002M18V
 
 ![](images/100/100-40.png)
 	
-- IDCS change password page will open up. Provide a suitable password that matches the listed **Password Criteria**. Click on **Submit**.
+- IDCS change password page will open up. Provide a suitable password that passes the listed **Password Criteria**. The criterion/rule verification is indicated with a green check mark against each of the rule. Click on **Submit**.
 
 ![](images/100/100-41.png)
 
 - Verify that you are redirected to the MFA enrollment page.
+
+![](images/100/100-42-0.png)
   
 ## Enroll in multi-factor authentication - (Persona: End-User)
 
-- On the **Enable 2-Step Verification** page, click on `Enable`
+- On the **Enable 2-Step Verification** page, click on **Enable**.
 
 ![](images/100/100-42.png)
 
-- Select the method `Email`
+- Select the method **Email**.
 
 ![](images/100/100-43.png)
 	
@@ -383,62 +385,78 @@ Organization ID : 00D1N000002M18V
 	
 ![](images/100/100-45.png)
 
-- Provide the 6-digit code on the enrollment page and click on `Verify`
+- Provide the 6-digit code on the enrollment page and click on **Verify**.
 
 ![](images/100/100-46.png)
 	
-- Ensure that the success enrollment message is displayed. Click on `Done`
+- Ensure that the success enrollment message is displayed. Click on **Done**.
 	
 ![](images/100/100-47.png)
+
+- Verify that you are redirected to the empty **My Apps** page.
+
 ![](images/100/100-48.png)
 
-- Logout from IDCS and re-login with your credentials
+- Sign out from IDCS and re-login with your credentials.
+
+![](images/100/100-48-1.png)
+
+![](images/100/100-48-2.png)
 
 - Ensure that you are challenged by 2-Factor authentication and have received a new email containing a new 6-digit one time code.
 
-- Provide the new 6-digit code on the challenge screen for verification
+![](images/100/100-48-3.png)
 
-- On successful verification, ensure that user is logged in to the **MyApps** page of IDCS.
+![](images/100/100-48-4.png)
+
+- Provide the new 6-digit code on the challenge screen for verification.
+
+![](images/100/100-48-5.png)
+
+- On successful verification, ensure that you are logged in to the **My Apps** page.
 
 ![](images/100/100-48.png)
 
 ## Request group - (Persona: End-User)
 
-- From MyApps page click on `Add` access request button.
+- From MyApps page click on **Add** access request button.
 
-![](images/100/100-48.png)
+![](images/100/100-49-0.png)
 
-- From the **Groups** tab, select `Employee` group
+- Verify that **Employees** group is available on the **Groups** tab. Click on `+` sign to request access to the group.
 
 ![](images/100/100-49.png)
 	
-- Click on `+` sign to request access to the group. Provide justification on the resulting popup page. Click on `OK`
+- Provide justification on the resulting popup page. Click on **OK**.
 
 ![](images/100/100-50.png)
 		
-- Go to `My Profile` section from menu located top-right
+- Go to **My Profile** section from menu located top-right.
 
 ![](images/100/100-52.png)
 	
-- Ensure that `Employee` group is visible under **My Access** sub-tab
+- Ensure that **Employee** group is visible under **My Access** tab.
 	
 ![](images/100/100-53.png)
 	
-- Go to `My Apps` section from menu located top-right
+- Go to **My Apps** section from menu located top-right.
 
 ![](images/100/100-54.png)
 	
-- Ensure that Salesforce applications are visible now on the **MyApps** page
+- Ensure that Salesforce applications are visible now on the **My Apps** page.
 	
 ![](images/100/100-55.png)
 
 
 ## Verify SSO - (Persona: End-User)
 
-- Click on the `Salesforce Chatter` app. 
-- Ensure that user is automatically logged-in to Salesforce Chatter (**SSO**)
+- Click on the **Salesforce Chatter** app. 
 
 ![](images/100/100-56.png)
+
+- Ensure that user is automatically logged-in to Salesforce Chatter (**SSO**)
+
+![](images/100/100-56-1.png)
 
 
 # Scenario - Developer Features
@@ -447,7 +465,7 @@ Organization ID : 00D1N000002M18V
 
 IDCS is built using API-first approach. All the features are accessible through REST API's and are protected by OAuth 2.0 framework. Most of the API's need an **OAuth Access Token** in order to be accepted by IDCS. 
 
-In this demo we will explore some of the API's in the reportaire, especially - 
+In this demo we will explore some of the API's in the repertoire, especially - 
 
 	1. IDCS Configuration Discovery
 	2. Obtaining and inspecting OAuth token
