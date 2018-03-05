@@ -5,7 +5,7 @@ Update: March 5, 2018
 
 This is the first of several labs that are part of the **Oracle Public Cloud Security and Management workshop.** This workshop will walk you through the various capabilities of **Oracle Identity Cloud Service**.
 
-Although you will login as a single user, you will take on 2 Personas during the workshop. 
+Although you will login as a single user, you will take on 2 personas during the workshop. 
 
 * The **LOB Administrator** persona will 
 
@@ -461,7 +461,7 @@ Organization ID : 00D1N000002M18V
 
 # Scenario - Developer Features
 
-## For Information Only: API Tour - (Persona: Developer)
+## Demo: API Tour - (Persona: Developer)
 
 <blockquote>
 	<font color="blue">
