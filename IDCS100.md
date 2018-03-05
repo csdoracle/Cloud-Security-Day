@@ -272,61 +272,90 @@ Organization ID : 00D1N000002M18V
 
 - Go to IDCS admin console -> **Groups** menu 
 
-	![](images/100/100-32.png)
+![](images/100/100-32.png)
 
-- Add group **Employee**. Check the box `User can request access`. 
+- Add group **Employees**. Check the box `User can request access`. Click on **Finish** 
 
-	![](images/100/100-33.png)
-
-- Click on **Finish** 
-
-	![](images/100/100-34.png)
+![](images/100/100-33.png)
+	
+![](images/100/100-33-1.png)
+	
+![](images/100/100-33-2.png)
 
 - Go to the **Access** tab. Click on **Assign**. 
 
+![](images/100/100-34.png)
+
 - Select **Salesforce** and confirm 
 
-	![](images/100/100-35.png)
+![](images/100/100-35.png)
 	
-	![](images/100/100-36.png)
+![](images/100/100-36.png)
 
 
 ## Configure multi-factor authentication - (Persona: Administrator)
 
-When a user signs in to an application, they are prompted for their user name and password, which is the first factor – something that they know. With **Multi Factor Authentication (MFA)** enabled in Oracle Identity Cloud Service, the user is then required to provide a second type of verification. This is called **2-Step Verification**.
+<blockquote>
+	<font color="blue">
+		<p>
+			When a user signs in to an application, they are prompted for their 			user name and password, which is the first factor – something that 			they know. With <b>Multi Factor Authentication (MFA)</b> enabled in 			Oracle Identity Cloud Service, the user is then required to provide 			a second type of verification. This is called <b>2-Step 			Verification</b>.
+		</p>
+		<p>
+			The two factors work together to add an additional layer of security 			by using either additional information or a second device to verify 			the user’s identity and complete the login process.
+		</p>
+	</font>
+</blockquote>
 
-The two factors work together to add an additional layer of security by using either additional information or a second device to verify the user’s identity and complete the login process.
 
+- From IDCS admin console, select **Security** -> **MFA** from the sidebar to the left.
 
-- Go to IDCS admin console. Select **Security** -> **MFA** from the sidebar to the left.
+![](images/100/100-37-0.png)  
 
+- Select all the options for **Select the factors that you want to enable**. Keep all other parameters to their default values. Click on **Save**.
 
-- Select all the options for **Select the factors that you want to enable:**
+![](images/100/100-37.png)  
 
-![](images/100/100-37.png)
+- Confirm new MFA settings.
 
-- Keep all other parameters to their default values. Click on **Save** 
-
-![](images/100/100-38.png)
+![](images/100/100-37-1.png)
 	
 - Select **Security** -> **Sign-On Policies** from the sidebar to the left of admin console.
 
+![](images/100/100-38.png)
+
+- Click on **Default Sign-On Policy**. This will open up the policy. 
+
 ![](images/100/100-38-1.png)
 
-- Click on **Default Sign-On Policy**. This will open up the policy. Go to the **Sign-On Rules** tab and click on **Edit** aganist **Default Sign-On Rule**.
+- Go to the **Sign-On Rules** tab and then click on **Edit** aganist the **Default Sign-On Rule**.
 
 ![](images/100/100-38-2.png)
 
-- Check the box **Prompt for an additional factor**. Set the value of **Enrollment** to `Optional`
-
 ![](images/100/100-38-3.png)
 
-- Click on **Save**
+- Check the box **Prompt for an additional factor**. Set the value of **Enrollment** to `Optional`. Click on **Save**.
+
+![](images/100/100-38-4.png)
+
+![](images/100/100-38-5.png)
+
 	
 
 ## Activate account - (Persona: End-User) 
 
-- Login to gmail as [demoidcs@gmail.com](). Go to the label corresponding to the user. Verify that there is an activation email from IDCS.
+<blockquote>
+	<font color="green">
+		<p>For end-user flow, use either a separate browser or an incognito/		private browser session. This will ensure that administrator and user 		sessions are not mixed up.</p>
+	</font>
+</blockquote>
+
+- Login to gmail as [demoidcs@gmail.com](). Go to the gmail label corresponding to your user. Verify that there is an activation email from IDCS.
+
+	<blockquote>
+		<font color="red">
+			Gmail password will be provided during session.
+		</font>
+	</blockquote>
 
 ![](images/100/100-39.png)
 
@@ -334,7 +363,6 @@ The two factors work together to add an additional layer of security by using ei
 
 ![](images/100/100-40.png)
 	
-
 - IDCS change password page will open up. Provide a suitable password that matches the listed **Password Criteria**. Click on **Submit**.
 
 ![](images/100/100-41.png)
