@@ -463,7 +463,13 @@ Organization ID : 00D1N000002M18V
 
 ## For Information Only: API Tour - (Persona: Developer)
 
-IDCS is built using API-first approach. All the features are accessible through REST API's and are protected by OAuth 2.0 framework. Most of the API's need an **OAuth Access Token** in order to be accepted by IDCS. 
+<blockquote>
+	<font color="blue">
+		<p>
+			IDCS is built using API-first approach. All the features are accessible through REST API's and are protected by OAuth 2.0 framework. Most of the API's need an <b>OAuth Access Token</b> in order to be accepted by IDCS.
+		</p>
+	</font>
+</blockquote>
 
 In this demo we will explore some of the API's in the repertoire, especially - 
 
