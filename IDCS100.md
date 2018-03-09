@@ -21,10 +21,6 @@ Although you will login as a single user, you will take on 2 personas during the
 		Request groups
 		Verify SSO for apps from unified launchpad 
 
-### Optional	
-
-* We will see a **Developer** persona exploring `IDCS REST API's` in interactive notebook-style.
-
 
 ## Objectives
 
@@ -37,7 +33,6 @@ Although you will login as a single user, you will take on 2 personas during the
 - Enroll in multi-factor authentication `<--Persona: End-User`
 - Request group `<--Persona: End-User`
 - Verify SSO `<--Persona: End-User`
-- Optional: API tour `<--Persona: Developer`
 
 
 ## Pre-requisites
@@ -473,28 +468,4 @@ Congratulations, you successfully added and activated an application in IDCS.
 ![](images/100/100-56-1.png)
 
 - Congratulations, you completed the IDCS Hands-on lab.
-
-# Scenario - Developer Features
-
-## Demo: API Tour - (Persona: Developer)
-
-<blockquote>
-	<font color="blue">
-		<p>
-			IDCS is built using API-first approach. All the features are accessible through REST API's and are protected by OAuth 2.0 framework. Most of the API's need an <b>OAuth Access Token</b> in order to be accepted by IDCS.
-		</p>
-	</font>
-</blockquote>
-
-In this demo we will explore some of the API's in the repertoire, especially - 
-
-	1. IDCS Configuration Discovery
-	2. Obtaining and inspecting OAuth token
-	3. User management
-	4. Audit API
-
-The demo uses hosted **Jupyter Notebook**
-
-[Access Notebook Here](http://140.86.32.135:65000/notebooks/IDCS-API.ipynb)
-
 
