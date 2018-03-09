@@ -32,23 +32,23 @@ While your credit card is required to sign up, keep in mind that you won’t be 
 
 Go to [https://myservices.us.oraclecloud.com/mycloud/signup?language=en](https://myservices.us.oraclecloud.com/mycloud/signup?language=en)
 
-1. 	Fill in the form as shown below
+1.  Fill in the form as shown below
 
 	![](images/pre-req/pre-001.png)
 
-1.  	Provide your cell phone number and click **Request Code**
+1.  Provide your cell phone number and click **Request Code**
 
 	![](images/pre-req/pre-002.png)
 
-1.  	Type in the code received on your mobile phone and click **Verify**
+1.  Type in the code received on your mobile phone and click **Verify**
 
 	![](images/pre-req/pre-003.png)
 
-1.  	Add Credit Card Details. You won’t be charged unless you choose to extend after your $300 credit is fully used.
+1.  Add Credit Card Details. You won’t be charged unless you choose to extend after your $300 credit is fully used.
 
 	![](images/pre-req/pre-004.png)
 
-1.  	Accept the **Terms & Conditions**
+1.  Accept the **Terms & Conditions**
 
 	![](images/pre-req/pre-005.png)
 
@@ -56,7 +56,7 @@ After about 15 minutes your account will be provisioned and you will receive a w
 
 ![](images/pre-req/pre-006.png)
 
-1.  	Navigate to **My Services Administration** URL shown above to get started and login with the temporary password provided
+1.  Navigate to **My Services Administration** URL shown above to get started and login with the temporary password provided
 
 	![](images/pre-req/pre-007.png)
 
