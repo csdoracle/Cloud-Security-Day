@@ -208,6 +208,10 @@ In this hands-on exercise, we will setup integration with **Salesforce** using S
 			Credentials will be provided during session.
 		</font>
 	</blockquote>
+	
+- Bring up the **setup** page.
+
+![](images/100/100-16-1.png)
 
 - From side menu bar, go to **Settings** -> **Identity** -> **Single Sign-On Settings**
 
