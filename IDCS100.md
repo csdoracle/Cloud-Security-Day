@@ -154,6 +154,8 @@ For the exercise we will be using `file upload` option for users.
 
 ![](images/100/100-13.png)
 
+- Congratulations, you successfuly imported users into IDCS.
+
 ### **STEP 3**: Verify user creation
 
 - Go to the **Users** menu in admin console. Verify that the new users are visible on the console.
@@ -200,6 +202,12 @@ In this hands-on exercise, we will setup integration with **Salesforce** using S
 </blockquote>
 
 ![](images/100/100-16.png)
+
+<blockquote>
+		<font color="red">
+			Following activities on Salesforce is optional. Email the metadata XML to your proctor.
+		</font>
+</blockquote>
 	
 - Login to the **Salesforce** developer [account](https://demoidaas-dev-ed.my.salesforce.com)
 
@@ -271,6 +279,7 @@ Organization ID : 00D1N000002M18V
 
 ![](images/100/100-31-2.png)
 
+Congratulations, you successfully added and activated an application in IDCS.
 
 ## Grant app to group - (Persona: Administrator)
 
@@ -296,6 +305,7 @@ Organization ID : 00D1N000002M18V
 	
 ![](images/100/100-36.png)
 
+- Congratulations, you successfully created a group and assigned it.
 
 ## Configure multi-factor authentication - (Persona: Administrator)
 
@@ -343,7 +353,7 @@ Organization ID : 00D1N000002M18V
 
 ![](images/100/100-38-5.png)
 
-	
+- Congratulations, you enabled and configured multi-factor authentication within IDCS.
 
 ## Activate account - (Persona: End-User) 
 
@@ -462,6 +472,7 @@ Organization ID : 00D1N000002M18V
 
 ![](images/100/100-56-1.png)
 
+- Congratulations, you completed the IDCS Hands-on lab.
 
 # Scenario - Developer Features
 
