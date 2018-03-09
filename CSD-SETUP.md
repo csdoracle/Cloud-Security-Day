@@ -19,8 +19,8 @@ In this lab, we will cover –
 
 # Pre-requisites
 
-- [ ]  A valid email address
-- [ ]  Credit card to sign up for your Oracle Cloud Trial account
+- [x]  A valid email address
+- [x]  Credit card to sign up for your Oracle Cloud Trial account
    -  Trial accounts are free and are enabled with $300 credit
    -  **`Your card will not be automatically charged once the $300 credit has been consumed`**
 
