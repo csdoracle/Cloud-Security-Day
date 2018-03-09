@@ -22,7 +22,7 @@ In this lab, we will cover –
 - A valid email address
 - Credit card to sign up for your Oracle Cloud Trial account
  - Trial accounts are free and are enabled with $300 credit
- - **Your card will not be automatically charged once the $300 credit has been consumed**
+ - `Your card will not be automatically charged once the $300 credit has been consumed`
 
 # Requesting your free  Promotional Account ($300 credit)
 
@@ -70,57 +70,57 @@ After about 15 minutes your account will be provisioned and you will receive a w
 
 ![](images/pre-req/pre-008-1.png)
 
-1.  Click on the **Dashboard** link on the top right hand corner.
+1.  Click on the `Dashboard` link on the top right hand corner.
 
 ![](images/pre-req/pre-008-2.png)
 
-1.  Verify that dashboard shows the **Identity Cloud** service tile.
+1.  Verify that dashboard shows the `Identity Cloud` service tile.
 
 ![](images/pre-req/pre-008-3.png)
 
-1.  Click on **Customize Dashboard**
+1.  Click on `Customize Dashboard`
 
 ![](images/pre-req/pre-008-4.png)
 
-1.  Scroll down on the pop-up page to find the service **Oracle CASB**. Click on  **Show** button against the service. Close the pop-up.
+1.  Scroll down on the pop-up page to find the service `Oracle CASB`. Click on  `Show` button against the service. Close the pop-up.
 
 ![](images/pre-req/pre-008-5.png)
 
-1.  Verify that the a service tile appears for **Oracle CASB** on the dashboard.
+1.  Verify that the a service tile appears for `Oracle CASB` on the dashboard.
 
 ![](images/pre-req/pre-008-6.png)
 
-1.  On the top right hand corner of the dashboard, select the dropdown aganist **Identity Domain**. Select the value that says **traditional** as shown below.
+1.  On the top right hand corner of the dashboard, select the dropdown aganist `Identity Domain`. Select the value that says `traditional` as shown below.
 
 ![](images/pre-req/pre-008-7.png)
 ![](images/pre-req/pre-008-8.png)
 
-1.  Click on **Customize Dashboard**
+1.  Click on `Customize Dashboard`
 
 ![](images/pre-req/pre-008-9.png)
 
-1.  Scroll down on the pop-up page to find the service **Management Cloud**. Click on  **Show** button against the service. Close the pop-up.
+1.  Scroll down on the pop-up page to find the service `Management Cloud`. Click on  `Show` button against the service. Close the pop-up.
 
 ![](images/pre-req/pre-008-10.png)
 
-1.  Verify that the a service tile appears for **Management Cloud** on the dashboard.
+1.  Verify that the a service tile appears for `Management Cloud` on the dashboard.
 
 ![](images/pre-req/pre-008-11.png)
 
 # Create Oracle Management Cloud Instance
 
-1.  Continuing from last step above, click on the **Action Menu** against the **Management Cloud** tile on the dashboard. Then, click on **View Details** on the pop-up menu.
+1.  Continuing from last step above, click on the `Action Menu` against the `Management Cloud` tile on the dashboard. Then, click on `View Details` on the pop-up menu.
 
 ![](images/pre-req/pre-008-12.png)
 
-1.  Scroll down towards the bottom of the details page. Click on the button **Create Service Instance**.
+1.  Scroll down towards the bottom of the details page. Click on the button `Create Service Instance`.
 
 ![](images/pre-req/pre-008-13.png)
 
-1.  Fill in the details required and click **Create**
+1.  Fill in the details required and click `Create`
 
 	![](images/pre-req/pre-011.png)
 
-1.  After about 15 minutes your new **Management Cloud Service Instance** is created and confirmation sent to the admin email address with further details.
+1.  After about 15 minutes your new `Management Cloud Service Instance` is created and confirmation sent to the admin email address with further details.
 
 	![](images/pre-req/pre-012.png)
