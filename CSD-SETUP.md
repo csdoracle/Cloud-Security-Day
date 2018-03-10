@@ -33,66 +33,38 @@ While your credit card is required to sign up, keep in mind that you won’t be 
 Go to [https://myservices.us.oraclecloud.com/mycloud/signup?language=en](https://myservices.us.oraclecloud.com/mycloud/signup?language=en)
 
 1.  Fill in the form as shown below
-
-	![](images/pre-req/pre-001a.png)
-
-2.  Provide your cell phone number and click **`Request Code`**
-
-	![](images/pre-req/pre-002.png)
-
+![](images/pre-req/pre-001a.png)
+1.  Provide your cell phone number and click **`Request Code`**
+![](images/pre-req/pre-002.png)
 1.  Type in the code received on your mobile phone and click **`Verify`**
-
-	![](images/pre-req/pre-003a.png)
-
+![](images/pre-req/pre-003a.png)
 1.  Add Credit Card Details. Your credit card won’t be charged.
-
-	![](images/pre-req/pre-004.png)
-
+![](images/pre-req/pre-004.png)
 1.  Accept the **`Terms & Conditions`**
-
-	![](images/pre-req/pre-005.png)
-
+![](images/pre-req/pre-005.png)
 After about 15 minutes your account will be provisioned and you will receive a welcome email with details on the next steps
-
 ![](images/pre-req/pre-006a.png)
-
-6.  Navigate to **`My Services Administration`** URL shown above to get started and login with the temporary password provided
-
-	![](images/pre-req/pre-007.png)
-
+1.  Navigate to **`My Services Administration`** URL shown above to get started and login with the temporary password provided
+![](images/pre-req/pre-007.png)
 1.  Set a new password for your account
-
-	![](images/pre-req/pre-008.png)
+![](images/pre-req/pre-008.png)
 	
 # Setup
 ## Customize Dashboard
 
 1.  Verify that you have been redirected to the **`Guided Journey`** page and click on **`Dashboard`**
-
 ![](images/pre-req/pre-008-1a.png)
-
-2. On the top right hand corner of the dashboard, toggle **`Identity Domain`**, then Select **`<Domain_Name> - North America`**, and Click on **`Customize Dashboard`**
-
+1. On the top right hand corner of the dashboard, toggle **`Identity Domain`**, then Select **`<Domain_Name> - North America`**, and Click on **`Customize Dashboard`**
 ![](images/pre-req/pre-008-4a.png)
-
 1.  Scroll down on the pop-up page to find the service **`Identity Cloud`**, Click on  **`Show`** button against the service. Repeat the task for service **`Oracle CASB`**, then Close the pop-up.
-
 ![](images/pre-req/pre-008-5a.png)
-
 1.  Verify that the a service tiles appears for **`Identity Cloud`** and **`Oracle CASB`** on the dashboard.
-
 ![](images/pre-req/pre-008-6a.png)
-
 1.  On the top right hand corner of the dashboard, toggle **`Identity Domain`**, then Select **`<Domain_Name> - North America(traditional)`** , and Click on **`Customize Dashboard`**.
-
 ![](images/pre-req/pre-008-8a.png)
-
 1.  Scroll down on the pop-up page to find the service **`Management Cloud`**, Click on  **`Show`** button against the service, and Close the pop-up.
-
 ![](images/pre-req/pre-008-10a.png)
-
 1.  Verify that the a service tile appears for **`Management Cloud`** on the dashboard.
-
 ![](images/pre-req/pre-008-11a.png)
 
 ## Create Oracle Management Cloud Instance
