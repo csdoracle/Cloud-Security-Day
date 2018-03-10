@@ -68,10 +68,8 @@ After about 15 minutes your account will be provisioned and you will receive a w
 ## Customize Dashboard
 
 1.  Verify that you have been redirected to the **`Guided Journey`** page and click on **`Dashboard`**
-
 ![](images/pre-req/pre-008-1a.png)
-
-2. On the top right hand corner of the dashboard, toggle **`Identity Domain`**, then Select **`<Domain_Name> - North America`**, and Click on **`Customize Dashboard`**
+1. On the top right hand corner of the dashboard, toggle **`Identity Domain`**, then Select **`<Domain_Name> - North America`**, and Click on **`Customize Dashboard`**
 
 ![](images/pre-req/pre-008-4a.png)
 
