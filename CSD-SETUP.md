@@ -74,23 +74,23 @@ After about 15 minutes your account will be provisioned and you will receive a w
 
 ![](images/pre-req/pre-008-4a.png)
 
-1.  Scroll down on the pop-up page to find the service **`Identity Cloud`**, Click on  **`Show`** button against the service. Repeat the task for service **`Oracle CASB`**, then Close the pop-up.
+3.  Scroll down on the pop-up page to find the service **`Identity Cloud`**, Click on  **`Show`** button against the service. Repeat the task for service **`Oracle CASB`**, then Close the pop-up.
 
 ![](images/pre-req/pre-008-5a.png)
 
-1.  Verify that the a service tiles appears for **`Identity Cloud`** and **`Oracle CASB`** on the dashboard.
+4.  Verify that the a service tiles appears for **`Identity Cloud`** and **`Oracle CASB`** on the dashboard.
 
 ![](images/pre-req/pre-008-6a.png)
 
-1.  On the top right hand corner of the dashboard, toggle **`Identity Domain`**, then Select **`<Domain_Name> - North America(traditional)`** , and Click on **`Customize Dashboard`**.
+5.  On the top right hand corner of the dashboard, toggle **`Identity Domain`**, then Select **`<Domain_Name> - North America(traditional)`** , and Click on **`Customize Dashboard`**.
 
 ![](images/pre-req/pre-008-8a.png)
 
-1.  Scroll down on the pop-up page to find the service **`Management Cloud`**, Click on  **`Show`** button against the service, and Close the pop-up.
+6.  Scroll down on the pop-up page to find the service **`Management Cloud`**, Click on  **`Show`** button against the service, and Close the pop-up.
 
 ![](images/pre-req/pre-008-10a.png)
 
-1.  Verify that the a service tile appears for **`Management Cloud`** on the dashboard.
+7.  Verify that the a service tile appears for **`Management Cloud`** on the dashboard.
 
 ![](images/pre-req/pre-008-11a.png)
 
@@ -104,10 +104,10 @@ After about 15 minutes your account will be provisioned and you will receive a w
 
 ![](images/pre-req/pre-008-13.png)
 
-1.  Fill in the details required and click **`Create`**
+3.  Fill in the details required and click **`Create`**
 
 	![](images/pre-req/pre-011a.png)
 
-1.  After about 15 minutes your new **`Management Cloud Service Instance`** is created and confirmation sent to the admin email address with further details.
+4.  After about 15 minutes your new **`Management Cloud Service Instance`** is created and confirmation sent to the admin email address with further details.
 
 	![](images/pre-req/pre-012a.png)
