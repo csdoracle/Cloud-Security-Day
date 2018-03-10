@@ -98,17 +98,11 @@ After about 15 minutes your account will be provisioned and you will receive a w
 ## Create Oracle Management Cloud Instance
 
 1.  Continuing from last step above, click on the **`Action Menu`** against the **`Management Cloud`** tile on the dashboard. Then, click on **`View Details`** on the pop-up menu.
-
 ![](images/pre-req/pre-008-12.png)
-
-2.  Scroll down towards the bottom of the details page. Click on the button **`Create Service Instance`**.
-
+1.  Scroll down towards the bottom of the details page. Click on the button **`Create Service Instance`**.
 ![](images/pre-req/pre-008-13.png)
-
 1.  Fill in the details required and click **`Create`**
-
-	![](images/pre-req/pre-011a.png)
-
+![](images/pre-req/pre-011a.png)
 1.  After about 15 minutes your new **`Management Cloud Service Instance`** is created and confirmation sent to the admin email address with further details.
 
 	![](images/pre-req/pre-012a.png)
