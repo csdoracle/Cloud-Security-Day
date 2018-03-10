@@ -65,7 +65,7 @@ After about 15 minutes your account will be provisioned and you will receive a w
 	![](images/pre-req/pre-008.png)
 	
 # Setup
-## Arrange services on dashboard
+## Customize Dashboard
 
 1.  Verify that you have been redirected to the **`Guided Journey`** page and click on **`Dashboard`**
 
