@@ -8,7 +8,7 @@ The purpose of this lab guide is to walk customers through the steps necessary t
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/csdoracle/Cloud-Security-Day/issues/new) repository issue submission form.
 
-# Objectives
+## Objectives
 
 In this lab, we will cover –
 
@@ -17,7 +17,7 @@ In this lab, we will cover –
 - How to create your Oracle Management Cloud Instance
 
 
-# Pre-requisites
+## Pre-requisites
 
 - A valid email address
 - Credit card to sign up for your Oracle Cloud Trial account
@@ -64,7 +64,8 @@ After about 15 minutes your account will be provisioned and you will receive a w
 
 	![](images/pre-req/pre-008.png)
 	
-# Arrange services on dashboard
+# Setup
+## Arrange services on dashboard
 
 1.  Verify that you have been redirected to the **`Guided Journey`** page and click on **`Dashboard`**
 
@@ -94,7 +95,7 @@ After about 15 minutes your account will be provisioned and you will receive a w
 
 ![](images/pre-req/pre-008-11a.png)
 
-# Create Oracle Management Cloud Instance
+## Create Oracle Management Cloud Instance
 
 1.  Continuing from last step above, click on the **`Action Menu`** against the **`Management Cloud`** tile on the dashboard. Then, click on **`View Details`** on the pop-up menu.
 
