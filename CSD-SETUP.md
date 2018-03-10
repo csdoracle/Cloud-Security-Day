@@ -34,7 +34,7 @@ Go to [https://myservices.us.oraclecloud.com/mycloud/signup?language=en](https:/
 
 1.  Fill in the form as shown below
 
-	![](images/pre-req/pre-001.png)
+	![](images/pre-req/pre-001a.png)
 
 1.  Provide your cell phone number and click **`Request Code`**
 
@@ -42,7 +42,7 @@ Go to [https://myservices.us.oraclecloud.com/mycloud/signup?language=en](https:/
 
 1.  Type in the code received on your mobile phone and click **`Verify`**
 
-	![](images/pre-req/pre-003.png)
+	![](images/pre-req/pre-003a.png)
 
 1.  Add Credit Card Details. Your credit card won’t be charged.
 
@@ -54,7 +54,7 @@ Go to [https://myservices.us.oraclecloud.com/mycloud/signup?language=en](https:/
 
 After about 15 minutes your account will be provisioned and you will receive a welcome email with details on the next steps
 
-![](images/pre-req/pre-006.png)
+![](images/pre-req/pre-006a.png)
 
 1.  Navigate to **`My Services Administration`** URL shown above to get started and login with the temporary password provided
 
@@ -119,8 +119,8 @@ After about 15 minutes your account will be provisioned and you will receive a w
 
 1.  Fill in the details required and click **`Create`**
 
-	![](images/pre-req/pre-011.png)
+	![](images/pre-req/pre-011a.png)
 
 1.  After about 15 minutes your new **`Management Cloud Service Instance`** is created and confirmation sent to the admin email address with further details.
 
-	![](images/pre-req/pre-012.png)
+	![](images/pre-req/pre-012a.png)
