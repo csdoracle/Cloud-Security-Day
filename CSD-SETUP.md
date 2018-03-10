@@ -36,7 +36,7 @@ Go to [https://myservices.us.oraclecloud.com/mycloud/signup?language=en](https:/
 
 	![](images/pre-req/pre-001a.png)
 
-1.  Provide your cell phone number and click **`Request Code`**
+2.  Provide your cell phone number and click **`Request Code`**
 
 	![](images/pre-req/pre-002.png)
 
@@ -66,46 +66,33 @@ After about 15 minutes your account will be provisioned and you will receive a w
 	
 # Arrange services on dashboard
 
-1.  Verify that you have been redirected to the **`Guided Journey`** page
+1.  Verify that you have been redirected to the **`Guided Journey`** page and click on **`Dashboard`**
 
-![](images/pre-req/pre-008-1.png)
+![](images/pre-req/pre-008-1a.png)
 
-1.  Click on the **`Dashboard`** link on the top right hand corner.
+2. On the top right hand corner of the dashboard, toggle **`Identity Domain`**, then Select **`<Domain_Name> - North America`**, and Click on **`Customize Dashboard`**
 
-![](images/pre-req/pre-008-2.png)
+![](images/pre-req/pre-008-4a.png)
 
-1.  Verify that dashboard shows the **`Identity Cloud`** service tile.
+1.  Scroll down on the pop-up page to find the service **`Identity Cloud`**, Click on  **`Show`** button against the service. Repeat the task for service **`Oracle CASB`**, then Close the pop-up.
 
-![](images/pre-req/pre-008-3.png)
+![](images/pre-req/pre-008-5a.png)
 
-1.  Click on **`Customize Dashboard`**
+1.  Verify that the a service tiles appears for **`Identity Cloud`** and **`Oracle CASB`** on the dashboard.
 
-![](images/pre-req/pre-008-4.png)
+![](images/pre-req/pre-008-6a.png)
 
-1.  Scroll down on the pop-up page to find the service **`Oracle CASB`**. Click on  **`Show`** button against the service. Close the pop-up.
+1.  On the top right hand corner of the dashboard, toggle **`Identity Domain`**, then Select **`<Domain_Name> - North America(traditional)`** , and Click on **`Customize Dashboard`**.
 
-![](images/pre-req/pre-008-5.png)
+![](images/pre-req/pre-008-8a.png)
 
-1.  Verify that the a service tile appears for **`Oracle CASB`** on the dashboard.
+1.  Scroll down on the pop-up page to find the service **`Management Cloud`**, Click on  **`Show`** button against the service, and Close the pop-up.
 
-![](images/pre-req/pre-008-6.png)
-
-1.  On the top right hand corner of the dashboard, select the dropdown aganist **`Identity Domain`**. Select the value that says **`traditional`** as shown below.
-
-![](images/pre-req/pre-008-7.png)
-![](images/pre-req/pre-008-8.png)
-
-1.  Click on **`Customize Dashboard`**
-
-![](images/pre-req/pre-008-9.png)
-
-1.  Scroll down on the pop-up page to find the service **`Management Cloud`**. Click on  **`Show`** button against the service. Close the pop-up.
-
-![](images/pre-req/pre-008-10.png)
+![](images/pre-req/pre-008-10a.png)
 
 1.  Verify that the a service tile appears for **`Management Cloud`** on the dashboard.
 
-![](images/pre-req/pre-008-11.png)
+![](images/pre-req/pre-008-11a.png)
 
 # Create Oracle Management Cloud Instance
 
@@ -113,7 +100,7 @@ After about 15 minutes your account will be provisioned and you will receive a w
 
 ![](images/pre-req/pre-008-12.png)
 
-1.  Scroll down towards the bottom of the details page. Click on the button **`Create Service Instance`**.
+2.  Scroll down towards the bottom of the details page. Click on the button **`Create Service Instance`**.
 
 ![](images/pre-req/pre-008-13.png)
 
