@@ -21,7 +21,7 @@ In this lab, we will cover –
 
 - A valid email address
 - Credit card to sign up for your Oracle Cloud Trial account. 
-`Your free Oracle Cloud account will expire after you use all the free credits or at the end of the 30-day promotion period, whichever comes first. At that point you will have the option to continue using Oracle Cloud Services by upgrading to a paid account within the grace period of 30 days from the promotion expiration date. Your account will be automatically decommissioned and your data will be permanently deleted 30 calendar days after all the Free Oracle Cloud Promotion credits are spent or the promotion period expires, whichever comes first. There is no action required by you to end the Free Oracle Cloud Promotion.   Frequently Asked Questions`
+	`Your free Oracle Cloud account will expire after you use all the free credits or at the end of the 30-day promotion period, whichever comes first. At that point you will have the option to continue using Oracle Cloud Services by upgrading to a paid account within the grace period of 30 days from the promotion expiration date. Your account will be automatically decommissioned and your data will be permanently deleted 30 calendar days after all the Free Oracle Cloud Promotion credits are spent or the promotion period expires, whichever comes first. There is no action required by you to end the Free Oracle Cloud Promotion.   Frequently Asked Questions`
 
 # Requesting your free  Promotional Account ($300 credit)
 
