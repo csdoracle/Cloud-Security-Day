@@ -3,7 +3,6 @@
 
 ### Learn and Build on our Services
 
-* [Pre-requisite: Request Your Free Promotional Oracle Cloud Account](CSD-SETUP.md)
 
 * [Lab #1. Identity Cloud Service](IDCS100.md)
 

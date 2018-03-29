@@ -19,15 +19,16 @@ Then it will walk you through the various capabilities of **Oracle Identity Clou
 
 ### IDCS - overview
 
-- In-built integration with Oracle cloud services `<--Persona: Administrator`
-- Onboard users `<--Persona: Administrator`
+- Create user `<--Persona: Administrator`
 - Configure multi-factor authentication `<--Persona: Administrator`
 - Activate account `<--Persona: End-User`
 - Enroll in multi-factor authentication `<--Persona: End-User`
+- In-built integration with Oracle cloud services `<--Persona: End-User`
 
 
 ### (Optional) IDCS - advanced
 
+- Onboard users `<--Persona: Administrator`
 - Configure SSO for an app `<--Persona: Administrator`
 - Grant app to group `<--Persona: Administrator`
 - Request group `<--Persona: End-User`
@@ -47,7 +48,11 @@ Proceed as indicated below to request your free Oracle Cloud account. This accou
 
 While your credit card is required to sign up, keep in mind that you won’t be charged unless you explicitly decide to extend the services after your $300 credit is fully used. 
 
-Go to [https://myservices.us.oraclecloud.com/mycloud/signup?language=en](https://myservices.us.oraclecloud.com/mycloud/signup?language=en)
+Go to [https://cloud.oracle.com/tryit](https://cloud.oracle.com/tryit)
+
+- Click on **Create a Free Account**
+
+	![](images/pre-req/pre-001-1.png)
 
 - Fill in the form as shown below
 
