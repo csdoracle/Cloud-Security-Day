@@ -167,15 +167,22 @@ For the exercise we will be manually creating a user from admin console.
 
 ![](images/100/100-9-1-1.png)
 
-- On the pop-up page, provide values for **First Name**, **Last Name** and valid **E-mail**. Click on **Finish**
+- On the pop-up page (step 1), provide values for **First Name**, **Last Name** and valid **E-mail**. Click on **Next**.
 
 ![](images/100/100-9-1-2.png)
 
--  Verify that the user gets created successfully.
+- On step 2, select the group **OCI_Administrators**. 
+> This group grants access to Oracle' **IAAS** service (Infrastructure-As-A-Service). 
+
+	Click on **Finish**.
+	
+![](images/100/100-9-1-2-1.png)
+
+- Verify that the user gets created successfully.
 
 ![](images/100/100-9-1-3.png)
 
-- Congratulations, you successfully created a new user into IDCS.
+- Congratulations, you successfully created a new user into IDCS and granted him access to Oracle IAAS.
 
 
 ## Configure multi-factor authentication - (Persona: Administrator)
