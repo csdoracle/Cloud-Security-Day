@@ -23,7 +23,7 @@ Then it will walk you through the various capabilities of **Oracle Identity Clou
 - Configure multi-factor authentication `<--Persona: Administrator`
 - Activate account `<--Persona: End-User`
 - Enroll in multi-factor authentication `<--Persona: End-User`
-- In-built integration with Oracle cloud services `<--Persona: End-User`
+- Built-in integration with Oracle cloud services `<--Persona: End-User`
 
 
 ### (Optional) IDCS - advanced
@@ -307,17 +307,16 @@ For the exercise we will be manually creating a user from admin console.
 
 ![](images/100/100-8-2.png)	
 	
-- Click on the service **Analytics**. 
+- Click on the service **Compute** which is Oracle's **IAAS** serice (Infrastructure-As-A-Service)
 
 ![](images/100/100-8-3.png)
 
-- On the **Analytics** console, click on **Go to Console**
 
-![](images/100/100-8-4.png)
-
-- Observe that the logged in user has successfully single signed-on to the **Analytics** service console
+- Observe that the logged in user has successfully single signed-on to Oracle's **IAAS** service console.
 
 ![](images/100/100-8-5.png)
+
+- Explore various tabs on the IAAS service console.
 
 - Congratulations, you completed the IDCS overview hands-on lab.
 
