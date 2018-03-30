@@ -312,7 +312,7 @@ For the exercise we will be manually creating a user from admin console.
 
 ![](images/100/100-8-2.png)	
 	
-- Click on the service **Compute** which is Oracle's **IAAS** serice (Infrastructure-As-A-Service)
+- Click on the service **Compute** which is Oracle's **IAAS** service (Infrastructure-As-A-Service)
 
 ![](images/100/100-8-3.png)
 
