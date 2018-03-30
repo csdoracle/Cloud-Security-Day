@@ -171,10 +171,8 @@ For the exercise we will be manually creating a user from admin console.
 
 ![](images/100/100-9-1-2.png)
 
-- On step 2, select the group **OCI_Administrators**. 
+- On step 2, select the group **OCI_Administrators**. Then click on **Finish**.
 > This group grants access to Oracle' **IAAS** service (Infrastructure-As-A-Service). 
-
-	Click on **Finish**.
 	
 ![](images/100/100-9-1-2-1.png)
 
