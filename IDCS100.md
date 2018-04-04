@@ -3,43 +3,91 @@ Update: March 5, 2018
 
 ## Introduction
 
-This is the first of several labs that are part of the **Oracle Public Cloud Security and Management workshop.** This workshop will walk you through the various capabilities of **Oracle Identity Cloud Service**.
+This is the first of several labs that are part of the **Oracle Public Cloud Security and Management workshop.** 
 
-Although you will login as a single user, you will take on 2 personas during the workshop. 
+First it will walk you through the steps necessary to request an Oracle Cloud Trial account as well as some of the services which will be required for lab exercises which follow. 
 
-* The **LOB Administrator** persona will 
-
-		Onboard users via CSV upload
-		Setup and configure SSO Apps
-		Configure external identity provider
-		Configure MFA and policies
-		
-* The **End-User** persona will 
-
-		Activate her account 
-		Setup and login using various MFA channels 
-		Request groups
-		Verify SSO for apps from unified launchpad 
+Then it will walk you through the various capabilities of **Oracle Identity Cloud Service**.
 
 
 ## Objectives
 
-- In-built integration with Oracle cloud services `<--Persona: Administrator`
-- Onboard users `<--Persona: Administrator`
-- Configure SSO for an app `<--Persona: Administrator`
-- Grant app to group `<--Persona: Administrator`
+### Oracle Cloud - Navigate
+
+- How to request an Oracle Cloud Trial account
+- Arrange services on the cloud dashboard for easy navigation
+
+### IDCS - overview
+
+- Create user `<--Persona: Administrator`
 - Configure multi-factor authentication `<--Persona: Administrator`
 - Activate account `<--Persona: End-User`
 - Enroll in multi-factor authentication `<--Persona: End-User`
+- Built-in integration with Oracle cloud services `<--Persona: End-User`
+
+
+### (Optional) IDCS - advanced
+
+- Onboard users `<--Persona: Administrator`
+- Configure SSO for an app `<--Persona: Administrator`
+- Grant app to group `<--Persona: Administrator`
 - Request group `<--Persona: End-User`
 - Verify SSO `<--Persona: End-User`
 
 
 ## Pre-requisites
 
-- The following lab requires an **Oracle Public Cloud** account trial subscription.
+- [x]  A valid email address
+- [x]  Credit card to sign up for your Oracle Cloud Trial account
+   -  Trial accounts are free and are enabled with $300 credit
+   -  **`Your card will not be automatically charged once the $300 credit has been consumed`**
 
-### **STEP 0.1**: Login to your Oracle Cloud Account
+## Request your free Promotional Account ($300 credit)
+
+Proceed as indicated below to request your free Oracle Cloud account. This account comes with $300 credit to try out any cloud service and will be used primarily for the use cases defined in the workshop. 
+
+While your credit card is required to sign up, keep in mind that you won’t be charged unless you explicitly decide to extend the services after your $300 credit is fully used. 
+
+Go to [https://cloud.oracle.com/tryit](https://cloud.oracle.com/tryit)
+
+- Click on **Create a Free Account**
+
+	![](images/pre-req/pre-001-1.png)
+
+- Fill in the form as shown below
+
+	![](images/pre-req/pre-001.png)
+
+- Provide your cell phone number and click **`Request Code`**
+
+	![](images/pre-req/pre-002.png)
+
+- Type in the code received on your mobile phone and click **`Verify`**
+
+	![](images/pre-req/pre-003.png)
+
+- Add Credit Card Details. You won’t be charged unless you choose to extend after your $300 credit is fully used.
+
+	![](images/pre-req/pre-004.png)
+
+- Accept the **`Terms & Conditions`**
+
+	![](images/pre-req/pre-005.png)
+
+After about 15 minutes your account will be provisioned and you will receive a welcome email with details on the next steps
+
+![](images/pre-req/pre-006.png)
+
+- Navigate to **`My Services Administration`** URL shown above to get started and login with the temporary password provided
+
+	![](images/pre-req/pre-007.png)
+
+- Set a new password for your account
+
+	![](images/pre-req/pre-008.png)
+	
+
+## Login to your Oracle Cloud Account
 
 - From any browser, go to the URL:
     [https://cloud.oracle.com](https://cloud.oracle.com)
@@ -56,11 +104,38 @@ Although you will login as a single user, you will take on 2 personas during the
 
 ![](images/100/100-3.png)
 
-- You will be presented with a dashboard displaying the various cloud services available to this account.
+- You will be redirected to the landing page dashboard.
 
 ![](images/100/100-4.png)
 
-### **STEP 0.2**: Access IDCS Admin Console 
+
+## Arrange services on dashboard
+
+- If not already there, click on the **`Dashboard`** link on the top right hand corner.
+
+![](images/pre-req/pre-008-2.png)
+
+- Verify that dashboard shows the **`Identity Cloud`** service tile.
+
+![](images/pre-req/pre-008-3.png)
+
+- Click on **`Customize Dashboard`**
+
+![](images/pre-req/pre-008-4.png)
+
+- Scroll down on the pop-up page to find the service **`Oracle CASB`**. Click on  **`Show`** button against the service. Close the pop-up.
+
+![](images/pre-req/pre-008-5.png)
+
+- Verify that a service tile appears for **`Oracle CASB`** on the dashboard.
+
+![](images/pre-req/pre-008-6.png)
+
+------------------------------------------------------
+# IDCS - overview
+------------------------------------------------------
+
+## Access IDCS Admin Console - (Persona: Administrator)
 
 - From the cloud **My Services** dashboard, click on **Users** in the upper right hand corner. 
 
@@ -70,41 +145,190 @@ Although you will login as a single user, you will take on 2 personas during the
 
 ![](images/100/100-5.png)
 
-- If you have logged in using your administrator Account, the users are shown up in IDCS admin console. 
+- The users are shown up in IDCS admin console. 
 
 ![](images/100/100-6.png)
 
-### **STEP 0.3**: Access IDCS MyApps Console
-
-- From the drop-down associated with the displayed logged-in user in the upper right hand corner of IDCS admin console, choose **My Apps**
-
-![](images/100/100-7.png)
 	
-![](images/100/100-8.png)
-	
-# Scenario: Integration with Oracle cloud services
 
-- From the drop-down associated with the displayed logged-in user in the upper right hand corner of IDCS admin console, choose **My Services** to come back to the cloud dashboard.
+## Create User - (Persona: Administrator)
+
+<blockquote>
+	<font color="blue">
+		<p>
+			IDCS supports user (also groups) on-boarding from on-premise 			<b>Active Directory</b>, using file upload, REST API, on-premise 			<b>Oracle Identity Management</b> solution, or manually from IDCS 			admin console.
+		</p>
+	</font>
+</blockquote>
+
+For the exercise we will be manually creating a user from admin console.
+
+- On the **Users** page, click on the **Add** button. 
+
+![](images/100/100-9-1-1.png)
+
+- On the pop-up page (step 1), provide values for **First Name**, **Last Name** and valid **E-mail**. Click on **Next**.
+
+![](images/100/100-9-1-2.png)
+
+- On step 2, select the group **OCI_Administrators**. Then click on **Finish**.
+> This group grants access to Oracle' **IAAS** service (Infrastructure-As-A-Service). 
+	
+![](images/100/100-9-1-2-1.png)
+
+- Verify that the user gets created successfully.
+
+![](images/100/100-9-1-3.png)
+
+- Congratulations, you successfully created a new user into IDCS and granted him access to Oracle IAAS.
+
+
+## Configure multi-factor authentication - (Persona: Administrator)
+
+<blockquote>
+	<font color="blue">
+		<p>
+			When a user signs in to an application, they are prompted for their 			user name and password, which is the first factor – something that 			they know. With <b>Multi Factor Authentication (MFA)</b> enabled in 			Oracle Identity Cloud Service, the user is then required to provide 			a second type of verification. This is called <b>2-Step 			Verification</b>.
+		</p>
+		<p>
+			The two factors work together to add an additional layer of security 			by using either additional information or a second device to verify 			the user’s identity and complete the login process.
+		</p>
+	</font>
+</blockquote>
+
+
+- From IDCS admin console, select **Security** -> **MFA** from the sidebar to the left.
+
+![](images/100/100-37-0.png)  
+
+- Select all the options for **Select the factors that you want to enable**. Keep all other parameters to their default values. Click on **Save**.
+
+![](images/100/100-37.png)  
+
+- Confirm new MFA settings.
+
+![](images/100/100-37-1.png)
+	
+- Select **Security** -> **Sign-On Policies** from the sidebar to the left of admin console.
+
+![](images/100/100-38.png)
+
+- Click on **Default Sign-On Policy**. This will open up the policy. 
+
+![](images/100/100-38-1.png)
+
+- Go to the **Sign-On Rules** tab and then click on **Edit** against the **Default Sign-On Rule**.
+
+![](images/100/100-38-2.png)
+
+![](images/100/100-38-3.png)
+
+- Check the box **Prompt for an additional factor**. Set the value of **Enrollment** to `Optional`. Click on **Save**.
+
+![](images/100/100-38-4.png)
+
+![](images/100/100-38-5.png)
+
+- Congratulations, you enabled and configured multi-factor authentication within IDCS.
+
+
+## Activate account - (Persona: End-User) 
+
+<blockquote>
+	<font color="green">
+		<p>For end-user flow, use either a separate browser or an incognito/		private browser session. This will ensure that administrator and user 		sessions are not mixed up.</p>
+	</font>
+</blockquote>
+
+- Open your email client for the address you provided during user creation. Verify that there is an activation email from IDCS.
+
+![](images/100/100-39.png)
+
+- Open and review the email. Click on the **Activate Your Account** button. 
+
+![](images/100/100-40.png)
+	
+- IDCS change password page will open up. Provide a suitable password that passes the listed **Password Criteria**. The criterion/rule verification is indicated with a green check mark against each of the rule. Click on **Submit**.
+
+![](images/100/100-41.png)
+
+- Verify that you are redirected to the MFA enrollment page.
+
+![](images/100/100-42-0.png)
+  
+## Enroll in multi-factor authentication - (Persona: End-User)
+
+- On the **Enable 2-Step Verification** page, click on **Enable**.
+
+![](images/100/100-42.png)
+
+- Select the method **Email**.
+
+![](images/100/100-43.png)
+	
+- Access your email to obtain the one-time passcode .
+	
+![](images/100/100-45.png)
+
+- Provide the 6-digit code on the enrollment page and click on **Verify**.
+
+![](images/100/100-46.png)
+	
+- Ensure that the success enrollment message is displayed. Click on **Done**.
+	
+![](images/100/100-47.png)
+
+- Verify that you are redirected to the empty **My Apps** page.
+
+![](images/100/100-48.png)
+
+- Sign out from IDCS and re-login with your credentials.
+
+![](images/100/100-48-1.png)
+
+![](images/100/100-48-2.png)
+
+- Ensure that you are challenged by 2-Factor authentication and have received a new email containing a new 6-digit one time code.
+
+![](images/100/100-48-3.png)
+
+![](images/100/100-48-4.png)
+
+- Provide the new 6-digit code on the challenge screen for verification.
+
+![](images/100/100-48-5.png)
+
+- On successful verification, ensure that you are logged in to the **My Apps** page.
+
+![](images/100/100-48.png)
+
+## Integration with Oracle Cloud Services
+
+- From the drop-down associated with the displayed logged-in user in the upper right hand corner of IDCS My Apps page, choose **My Home** to come back to the cloud home page.
 
 ![](images/100/100-8-1.png)
 
-- Display the sidebar by clicking on the hamburger menu in the upper left hand corner. then expand **Services** to display available Oracle cloud services.
+- Display the sidebar by clicking on the hamburger menu in the upper left hand corner. Then expand **Services** to display available Oracle cloud services.
 
 ![](images/100/100-8-2.png)	
 	
-- Click on the service **Analytics**. 
+- Click on the service **Compute** which is Oracle's **IAAS** service (Infrastructure-As-A-Service)
 
 ![](images/100/100-8-3.png)
 
-- On the **Analytics** console, click on **Go to Console**
 
-![](images/100/100-8-4.png)
-
-- Observe that the logged in user has successfully single signed-on to the **Analytics** service console
+- Observe that the logged in user has successfully single signed-on to Oracle's **IAAS** service console.
 
 ![](images/100/100-8-5.png)
 
-# Scenario - Standard Employee Workflow
+- Explore various tabs on the IAAS service console.
+
+- Congratulations, you completed the IDCS overview hands-on lab.
+
+------------------------------------------------------
+# (Optional) IDCS - advanced
+------------------------------------------------------
+
 
 ## Onboard Users - (Persona: Administrator)
 
@@ -118,20 +342,47 @@ Although you will login as a single user, you will take on 2 personas during the
 
 For the exercise we will be using `file upload` option for users.
 
-### **STEP 1**: Obtain upload CSV file
+### **STEP 0**: Obtain upload CSV file
 
 - Download the CSV file for users from [here](resources/Users.csv). Right-click on the link and save the file in your system. Inspect the content of the file from your favorite editor.
-	
+
+### **STEP 1**: Navigate to IDCS User Management
+
+- From any browser, go to the URL:
+    [https://cloud.oracle.com](https://cloud.oracle.com)
+
+- click **Sign In** in the upper right hand corner of the browser
+
+![](images/100/100-1.png)
+
+- Ensure **Cloud Account with Identity Cloud Service** is selected. Enter your cloud account name. Click on **My Services**
+
+![](images/100/100-2.png)
+
+- On the login page, enter your user name and password and click **Sign In** 
+
+![](images/100/100-3.png)
+
+- You will be redirected to the landing page dashboard.
+
+![](images/100/100-4.png)
+
+- From the cloud **My Services** dashboard, click on **Users** in the upper right hand corner. 
+
+![](images/100/100-4-1.png)
+
+- Then click on **Identity Console** button located towards upper right hand corner again. 
+
+![](images/100/100-5.png)
+
+- The user management interface is shown up in IDCS admin console. 
+
+![](images/100/100-6.png)
+
+
 
 ### **STEP 2**: Import users in IDCS
 
-- Click on the **Users** icon from top right corner assuming you are still on the **Analytics** console.
-
-![](images/100/100-9.png)
-
-- Click on **Identity Console** from top right corner of the **User Management** page.
-
-![](images/100/100-9-1.png)
 
 - On the **Users** page, click on the **Import** button. 
 
@@ -149,7 +400,7 @@ For the exercise we will be using `file upload` option for users.
 
 ![](images/100/100-13.png)
 
-- Congratulations, you successfuly imported users into IDCS.
+- Congratulations, you successfully imported users into IDCS.
 
 ### **STEP 3**: Verify user creation
 
@@ -163,11 +414,12 @@ For the exercise we will be using `file upload` option for users.
 
 	<blockquote>
 		<font color="red">
-			User assignments will be provided before the session.
+			User assignments will be provided during the session.
 		</font>
 	</blockquote>
 
 ![](images/100/100-15.png)
+
 
     
 ## Configure SSO for an app - (Persona: Administrator)
@@ -186,7 +438,7 @@ For the exercise we will be using `file upload` option for users.
 
 In this hands-on exercise, we will setup integration with **Salesforce** using SAML. IDCS will act as **IdP** (Identity Provider) and Salesforce org as **SP** (Service Provider also known as a Relying Party)
 
-- Download and save IDCS Metadata to a local XML file for your instance. Metadata is available from the following location - 
+- Download and save IDCS Metadata to a local XML file for your instance. Metadata is available from the following location- 
 <blockquote>
 	<font color="red">
 		https://idcs-xxxxxx.identity.oraclecloud.com/fed/v1/metadata
@@ -300,131 +552,9 @@ Congratulations, you successfully added and activated an application in IDCS.
 	
 ![](images/100/100-36.png)
 
-- Congratulations, you successfully created a group and assigned it.
-
-## Configure multi-factor authentication - (Persona: Administrator)
-
-<blockquote>
-	<font color="blue">
-		<p>
-			When a user signs in to an application, they are prompted for their 			user name and password, which is the first factor – something that 			they know. With <b>Multi Factor Authentication (MFA)</b> enabled in 			Oracle Identity Cloud Service, the user is then required to provide 			a second type of verification. This is called <b>2-Step 			Verification</b>.
-		</p>
-		<p>
-			The two factors work together to add an additional layer of security 			by using either additional information or a second device to verify 			the user’s identity and complete the login process.
-		</p>
-	</font>
-</blockquote>
+- Congratulations, you successfully created a group and assigned an application to it.
 
 
-- From IDCS admin console, select **Security** -> **MFA** from the sidebar to the left.
-
-![](images/100/100-37-0.png)  
-
-- Select all the options for **Select the factors that you want to enable**. Keep all other parameters to their default values. Click on **Save**.
-
-![](images/100/100-37.png)  
-
-- Confirm new MFA settings.
-
-![](images/100/100-37-1.png)
-	
-- Select **Security** -> **Sign-On Policies** from the sidebar to the left of admin console.
-
-![](images/100/100-38.png)
-
-- Click on **Default Sign-On Policy**. This will open up the policy. 
-
-![](images/100/100-38-1.png)
-
-- Go to the **Sign-On Rules** tab and then click on **Edit** against the **Default Sign-On Rule**.
-
-![](images/100/100-38-2.png)
-
-![](images/100/100-38-3.png)
-
-- Check the box **Prompt for an additional factor**. Set the value of **Enrollment** to `Optional`. Click on **Save**.
-
-![](images/100/100-38-4.png)
-
-![](images/100/100-38-5.png)
-
-- Congratulations, you enabled and configured multi-factor authentication within IDCS.
-
-## Activate account - (Persona: End-User) 
-
-<blockquote>
-	<font color="green">
-		<p>For end-user flow, use either a separate browser or an incognito/		private browser session. This will ensure that administrator and user 		sessions are not mixed up.</p>
-	</font>
-</blockquote>
-
-- Login to gmail as [demoidcs@gmail.com](). Go to the gmail label corresponding to your user. Verify that there is an activation email from IDCS.
-
-	<blockquote>
-		<font color="red">
-			Gmail password will be provided during session.
-		</font>
-	</blockquote>
-
-![](images/100/100-39.png)
-
-- Open and review the email. Click on the **Activate Your Account** button. 
-
-![](images/100/100-40.png)
-	
-- IDCS change password page will open up. Provide a suitable password that passes the listed **Password Criteria**. The criterion/rule verification is indicated with a green check mark against each of the rule. Click on **Submit**.
-
-![](images/100/100-41.png)
-
-- Verify that you are redirected to the MFA enrollment page.
-
-![](images/100/100-42-0.png)
-  
-## Enroll in multi-factor authentication - (Persona: End-User)
-
-- On the **Enable 2-Step Verification** page, click on **Enable**.
-
-![](images/100/100-42.png)
-
-- Select the method **Email**.
-
-![](images/100/100-43.png)
-	
-- Access your email to obtain the one-time passcode .
-	
-![](images/100/100-45.png)
-
-- Provide the 6-digit code on the enrollment page and click on **Verify**.
-
-![](images/100/100-46.png)
-	
-- Ensure that the success enrollment message is displayed. Click on **Done**.
-	
-![](images/100/100-47.png)
-
-- Verify that you are redirected to the empty **My Apps** page.
-
-![](images/100/100-48.png)
-
-- Sign out from IDCS and re-login with your credentials.
-
-![](images/100/100-48-1.png)
-
-![](images/100/100-48-2.png)
-
-- Ensure that you are challenged by 2-Factor authentication and have received a new email containing a new 6-digit one time code.
-
-![](images/100/100-48-3.png)
-
-![](images/100/100-48-4.png)
-
-- Provide the new 6-digit code on the challenge screen for verification.
-
-![](images/100/100-48-5.png)
-
-- On successful verification, ensure that you are logged in to the **My Apps** page.
-
-![](images/100/100-48.png)
 
 ## Request group - (Persona: End-User)
 
@@ -467,5 +597,5 @@ Congratulations, you successfully added and activated an application in IDCS.
 
 ![](images/100/100-56-1.png)
 
-- Congratulations, you completed the IDCS Hands-on lab.
+- Congratulations, you completed the IDCS advanced hands-on lab.
 
